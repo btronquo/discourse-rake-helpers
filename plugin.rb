@@ -10,10 +10,10 @@
 enabled_site_setting :plugin_name_enabled
 
 module ::MyPluginModule
-  PLUGIN_NAME = "discourse-plugin-name"
+  PLUGIN_NAME = "discourse-plugin-rake-commands"
 end
 
-require_relative "lib/my_plugin_module/engine"
+# require_relative "lib/my_plugin_module/engine"
 
 after_initialize do
   # Code which should run after Rails has finished booting
