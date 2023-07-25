@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 namespace :rakehelpers do
   desc "Disable every users accounts except admins and staff"
   task deactivate: :environment do

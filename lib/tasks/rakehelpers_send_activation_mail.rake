@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 namespace :rakehelpers do
   desc "Send an activation email to all inactive users"
   task send_activation_email: :environment do
