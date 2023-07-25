@@ -1,5 +1,5 @@
-# **Plugin Name** Plugin
+# **Discourse Rake Helpers** Plugin
 
 **Plugin Summary**
 
-For more information, please see: **url to meta topic**
+Just add some usefull rake commands
