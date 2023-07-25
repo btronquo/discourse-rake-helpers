@@ -1,4 +1,4 @@
-namespace :devsupport do
+namespace :rakehelpers do
   desc "Disable every users accounts except admins and staff"
   task deactivate: :environment do
     User.find_each do |user|

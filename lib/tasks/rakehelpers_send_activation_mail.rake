@@ -1,4 +1,4 @@
-namespace :devsupport do
+namespace :rakehelpers do
   desc "Send an activation email to all inactive users"
   task send_activation_email: :environment do
     User.where(active: false).find_each do |user|
