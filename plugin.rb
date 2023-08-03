@@ -2,7 +2,7 @@
 
 # name: discourse-plugin-rake-commands
 # about: Add custom rake commands
-# version: 0.0.2
+# version: 0.0.3
 # authors: Boris Tronquoy
 # url: https://github.com/btronquo/plugin-discourse-rake-helpers
 # required_version: 2.7.0
