@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 namespace :rakehelpers do
   desc "Send an activation email to all inactive users"
-  task send_activation_email: :environment do
+  task send_activation_email_to_one: :environment do
     User.where(active: false).find_each do |user|
       if !user.admin? && !user.staff?
         begin
